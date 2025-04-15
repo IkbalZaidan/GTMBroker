@@ -40,21 +40,51 @@
 <body>
 
   <header id="header" class="header d-flex align-items-center sticked stikcy-menu">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      style="max-width: 100% !important;">
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/images/logo.png" alt="logo">
+        <img id="headerLogo" src="assets/images/gtmLgWhiteNoBg.png" alt="logo">
       </a>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html" class="">Home</a></li>
-          <li><a href="" class="">Page</a></li>
-          <li><a href="" class="">Page</a></li>
-          <li><a href="" class="">Page</a></li>
-          <li><a href="" class="">Page</a></li>
-          <li><a href="" class="">Page</a></li>
+          <li><a href="" class="">About Us</a></li>
+          <li><a href="" class="">Why Choose GTM?</a></li>
+          <li><a href="" class="">MT5</a></li>
+          <li class="dropdown"><a href="#"><span>Accounts</span> <i
+                class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Open Live Account</a></li>
+              <li><a href="#">Open Demo Account</a></li>
+              <li><a href="#">Fund Your Account</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Services</span> <i
+                class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="" class="">PAMM</a></li>
+              <li><a href="" class="">MAM</a></li>
+              <li><a href="" class="">VPS</a></li>
+              <li><a href="" class="">Expert Advisors</a></li>
+            </ul>
+          </li>
+
+          <li><a href="" class="">Introducing Broker</a></li>
+          <li class="dropdown"><a href="#"><span>Products</span> <i
+                class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Forex</a></li>
+              <li><a href="#">Precious Metals</a></li>
+              <li><a href="#">Energies</a></li>
+              <li><a href="#">Shares</a></li>
+              <li><a href="#">Commodities</a></li>
+            </ul>
+          </li>
+
         </ul>
       </nav><!-- .navbar -->
-      <a href="contact.html" class="btn-get-started hide-on-mobile">Open Account</a>
+      <a href="#" class="btn-get-started hide-on-mobile">Open Account</a>
       <button style="display: none;" id="darkmode-button"><i class="bi bi-moon-fill"></i></button>
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
@@ -70,13 +100,12 @@
     <div class="container position-relative">
       <div class="row gy-5 aos-init aos-animate">
         <div class="col-lg-7 offset-lg-5 dark-bg order-lg-1 d-flex flex-column justify-content-start text-left caption">
-          <h2 data-aos="fade-up">Trade Beyond <span>Boundaries</span></h2>
-          <p data-aos="fade-up" data-aos-delay="400" style="color: #f0ba4d;">Experience the future of online trading with GTM Broker, your
+          <h2 data-aos="fade-up">Trade Beyond Boundaries</h2>
+          <p data-aos="fade-up" data-aos-delay="400" style="color: #f0ba4d;">Experience the future of online trading
+            with GTM Broker, your
             global gateway to financial derivatives.</p>
-          <h3 class="mb-4">
-            <span>
-              Start Trading Smarter
-            </span>
+          <h3 class="mb-4" style="color: white;">
+            Start Trading Smarter
           </h3>
           <!-- <div class="social" data-aos="fade-up" data-aos-delay="600">
             <a href=""><i class="bi bi-twitter"></i></a>
@@ -126,7 +155,7 @@
           <div class="col-md-4 left">
 
             <div class="list-wrap" data-aos="fade-up" data-aos-delay="200">
-            
+
               <div class="description">
                 <h4>Low Spreads, Zero Hassle</h4>
                 <p>Maximize your gains with ultra-competitive spreads and transparent pricing.</p>
@@ -137,7 +166,7 @@
             </div>
 
             <div class="list-wrap" data-aos="fade-up" data-aos-delay="100">
-            
+
               <div class="description">
                 <h4>24/5 Expert Support</h4>
                 <p>We’re here whenever markets move. Talk to real people, not bots.</p>
@@ -174,7 +203,7 @@
                 <p>Experience next-gen technology that delivers real-time data and super-fast order
                   execution.</p>
               </div>
-             
+
             </div>
 
             <div class="list-wrap" data-aos="fade-up" data-aos-delay="400">
@@ -185,13 +214,13 @@
                 <h4>Tailored for Traders</h4>
                 <p>From flexible account types to professional tools — we’re built to fit your trading style.</p>
               </div>
-            
+
             </div>
 
 
 
           </div>
-         
+
           <!-- end  right -->
         </div>
 
@@ -303,49 +332,49 @@
               </p>
             </div>
             <ul class="market-list">
-                <li data-aos="fade-up" data-aos-delay="100">
-                  <div class="description">
-                    <h4>Global Market Access</h4>
-                    <p>Connect with international markets seamlessly — anytime, anywhere.</p>
-                  </div>
-                </li>
+              <li data-aos="fade-up" data-aos-delay="100">
+                <div class="description">
+                  <h4>Global Market Access</h4>
+                  <p>Connect with international markets seamlessly — anytime, anywhere.</p>
+                </div>
+              </li>
 
-                <li data-aos="fade-up" data-aos-delay="100">
-                  <div class="description">
-                    <h4>Advanced Technology</h4>
-                    <p>Trade with lightning-fast execution and powerful tools designed for smart decisionmaking.</p>
-                  </div>
-                </li>
+              <li data-aos="fade-up" data-aos-delay="100">
+                <div class="description">
+                  <h4>Advanced Technology</h4>
+                  <p>Trade with lightning-fast execution and powerful tools designed for smart decisionmaking.</p>
+                </div>
+              </li>
 
-                <li data-aos="fade-up" data-aos-delay="100">
-                  <div class="description">
-                    <h4>Secure & Transparent</h4>
-                    <p>Your funds and data are protected by industry-grade security and full transparency.</p>
-                  </div>
-                </li>
+              <li data-aos="fade-up" data-aos-delay="100">
+                <div class="description">
+                  <h4>Secure & Transparent</h4>
+                  <p>Your funds and data are protected by industry-grade security and full transparency.</p>
+                </div>
+              </li>
 
-                <li data-aos="fade-up" data-aos-delay="100">
-                  <div class="description">
-                    <h4>Flexible Accounts</h4>
-                    <p>Choose from a range of account types tailored to your trading style and experience.</p>
-                  </div>
-                </li>
+              <li data-aos="fade-up" data-aos-delay="100">
+                <div class="description">
+                  <h4>Flexible Accounts</h4>
+                  <p>Choose from a range of account types tailored to your trading style and experience.</p>
+                </div>
+              </li>
 
-                <li data-aos="fade-up" data-aos-delay="100">
-                  <div class="description">
-                    <h4>Dedicated Support</h4>
-                    <p>Get expert help when you need it with our multilingual support team available 24/5.</p>
-                  </div>
-                </li>
-             
-              </ul>
+              <li data-aos="fade-up" data-aos-delay="100">
+                <div class="description">
+                  <h4>Dedicated Support</h4>
+                  <p>Get expert help when you need it with our multilingual support team available 24/5.</p>
+                </div>
+              </li>
+
+            </ul>
 
           </div>
 
           <div class="col-md-6 col-12">
             <div class="list-center-wrap" data-aos="fade-up" data-aos-delay="100">
               <div class="center-icon">
-                <img src="assets/images/features.jpg" alt="icon">
+                <img src="assets/images/phones.png" alt="icon">
               </div>
             </div>
           </div>
@@ -377,7 +406,7 @@
             <div class="footer-widget">
               <div class="footer-logo">
                 <a href="index.html" class="logo d-flex align-items-center">
-                  <img src="assets/images/logo.png" alt="logo">
+                  <img src="assets/images/gtmLgWhiteNoBg.png" alt="logo">
                 </a>
               </div>
               <div class="footer-text">
@@ -398,35 +427,32 @@
           <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
             <div class="service-widget footer-widget">
               <div class="footer-widget-heading">
-                <h3>Services</h3>
+                <h3>Pages</h3>
               </div>
               <ul class="list">
-                <li><a href="services.html">Web Design</a></li>
-                <li><a href="services.html">App Developemnt</a></li>
-                <li><a href="services.html">Cloud Services</a></li>
-                <li><a href="services.html">Domain adn Hosting</a></li>
-                <li><a href="services.html">Seo Optimization</a></li>
-                <li><a href="services.html">Social Media</a></li>
+                <li><a href="#">Home </a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Why Choose GTM</a></li>
+                <li><a href="#">MT5</a></li>
+                <li><a href="#">Introducing Broker</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
               </ul>
             </div>
           </div>
           <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
             <div class="service-widget footer-widget">
               <div class="footer-widget-heading">
-                <h3>Information</h3>
+                <h3>Services</h3>
               </div>
               <ul class="list">
-                <li><a href="about.html">About</a></li>
-                <li><a href="packages.html">Pricing</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="porfolio.html">Portfolio</a></li>
-                <li><a href="faq.html">FAQs</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="blogs.html">Blogs</a></li>
-                <li><a href="blogs-details.html">Blog Details</a></li>
-                <li><a href="coming-soon.html">Coming Soon</a></li>
-                <li><a href="privacy-policy.html">Terms & Conditions</a></li>
-                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="#">Live Account</a></li>
+                <li><a href="#">Demo Accounts</a></li>
+                <li><a href="#">Fund Your Account</a></li>
+                <li><a href="#">PAM</a></li>
+                <li><a href="#">MAM</a></li>
+                <li><a href="#">VPS</a></li>
+                <li><a href="#">Expert Advisors</a></li>
               </ul>
             </div>
           </div>
@@ -436,9 +462,9 @@
                 <h3>Contacts</h3>
               </div>
               <div class="footer-text">
-                <p><i class="bi bi-geo-alt-fill mr-15"></i> 101 West Town , PBO 12345, United States</p>
-                <p><i class="bi bi-telephone-inbound-fill mr-15"></i> +1 1234 56 789</p>
-                <p><i class="bi bi-envelope-fill mr-15"></i> contact@example.com</p>
+                <p><i class="bi bi-geo-alt-fill mr-15"></i> Dubai , United Arab Emirates</p>
+                <p><i class="bi bi-telephone-inbound-fill mr-15"></i> +971 1234 56 789</p>
+                <p><i class="bi bi-envelope-fill mr-15"></i> info@gtmbroker.com</p>
               </div>
             </div>
             <div class="footer-widget">
@@ -460,7 +486,7 @@
         <div class="row">
           <div class="col-xl-6 col-lg-6 text-left text-lg-left">
             <div class="copyright-text">
-              <p>Technoit © 2023 - Designed by <a href="https://www.templatemonster.com/authors/zrthemes/">Zr Themes</a>
+              <p>GTM Broker © 2025
               </p>
             </div>
           </div>
